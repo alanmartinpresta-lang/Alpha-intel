@@ -1,0 +1,10 @@
+{
+  "principles": [
+    "Raw Alpha output must remain distinguishable from interpretation.",
+    "External information is untrusted until verified.",
+    "Memory should preserve provenance and confidence.",
+    "Evolution must be measurable and reversible.",
+    "No arbitrary self-modifying code execution.",
+    "Human control remains available."
+  ]
+}

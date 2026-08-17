@@ -1,0 +1,19 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505"><title>ALPHA V2</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div><div class="brand">ALPHA <span>V2</span></div><small>AUTONOMOUS LEARNING CORE</small></div><div id="status">● OFFLINE</div></header>
+<main>
+<section class="grid">
+<div class="panel"><h2>ÉTAT</h2><div id="metrics"></div></div>
+<div class="panel"><h2>MODÈLE INTERNE</h2><pre id="self">Chargement…</pre></div>
+</section>
+<section class="panel"><h2>COMMUNICATION</h2><div id="chat"></div>
+<div class="row"><textarea id="q" placeholder="Parle à Alpha…"></textarea><button onclick="chat()">ENVOYER</button></div></section>
+<section class="grid">
+<div class="panel"><h2>EXPLORATION INTERNET</h2><input id="url" placeholder="https://example.com"><button onclick="research()">RECHERCHER</button><pre id="research"></pre></div>
+<div class="panel"><h2>ÉVOLUTION</h2><button onclick="evolve()">FAIRE ÉVOLUER UNE STRATÉGIE</button><pre id="evo"></pre></div>
+</section>
+<section class="grid"><div class="panel"><h2>MÉMOIRE</h2><pre id="memory"></pre></div><div class="panel"><h2>JOURNAL D'ÉVOLUTION</h2><pre id="journal"></pre></div></section>
+</main>
+<script src="app.js"></script></body></html>
